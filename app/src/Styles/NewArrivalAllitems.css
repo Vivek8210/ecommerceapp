@@ -1,0 +1,24 @@
+.new-arrival-allitems{
+    width: 99%;
+    height: 540px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 0px;
+    
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  }
+  .new-arrival-allitems-t{
+    width: 97%;
+    margin: auto;
+    height: 450px;
+    /* margin-left: 16px; */
+    margin-top: 10px;
+    cursor: pointer;
+    /* border: 1px solid grey; */
+   
+  }
+  .new-arrival-allitems-t:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  }

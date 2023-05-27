@@ -11,7 +11,7 @@ const Navbar = () => {
    <nav className="navbar navbar-expand-lg navbar-dark"  style={{backgroundColor:"rgb(125, 176, 173)",position:"sticky",top:"0", zIndex:"+2"}}>
     
     <div className="container-fluid">
-    <Link className="navbar-brand" to='/'>  <img src="https://codegama.com/assets/img/codegama-logo.png" alt="" style={{width:"190px",height:"40px"}} /></Link>
+    <Link className="navbar-brand" to='/fashion'>  <img src="https://codegama.com/assets/img/codegama-logo.png" alt="" style={{width:"190px",height:"40px"}} /></Link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         
     <span class="navbar-toggler-icon"></span>
@@ -21,9 +21,9 @@ const Navbar = () => {
         <li className="nav-item dropdown">
             <Link className="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false" to="/fashion">
-              Fashion
+              Products
             </Link>
-            <div className="dropdown-menu" aria-labelledby="navbarDropdown"  >
+            {/* <div className="dropdown-menu" aria-labelledby="navbarDropdown"  >
               <ul style={{backgroundColor:"#F8F8FF"}}>
                 <li><Link className="dropdown-item" to="/menshirt">Top wear</Link></li>
                 <li><Link className="dropdown-item" to="/menformalshirt">Formal Shirt</Link></li>
@@ -105,7 +105,7 @@ const Navbar = () => {
                
        
               </ul>
-            </div>
+            </div> */}
           </li>
           <li className="nav-item dropdown">
             <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -384,8 +384,14 @@ const Navbar = () => {
         <BsSearch style={{fontSize:"20px"}}/>
        
       </InputRightElement>
+      
     </InputGroup>
-
+  
+            <Link role="button"
+              to="/cart" style={{textAlign:'right',padding:'0px 20px 0px 130px',fontSize:'21px'}}>
+             cart
+            </Link>
+           
         </form>
 
 
